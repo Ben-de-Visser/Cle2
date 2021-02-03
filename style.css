@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(71, 71, 71);
+    font-family: sans-serif;
+    background-color: #79c879;
+    overflow-x hidden;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    height: 40vh;
+    line-height: 40vh;
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-image: url(https://www.ikbenzwanger.com/imagesmenu/gezond-eten-zwangerschap-9zv.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    color: rgb(71, 71, 71);
+    font-weight: bolder;
+    font-size: 1.2em;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+nav div {
+    padding: 10px 0;
+    width: 50vw;
+    text-align: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+
+nav div:hover {
+    background-color: #79c879;
+}
+
+nav.sticky {
+    position: fixed;
+    top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+section div {
+    margin-top: 15px;
+}
+
+label {
+    width:140px;
+    display:inline-block;
+}
+
+input {
+    padding:6px;
+}
+
+button {
+    cursor:pointer;
+    border:none;
+    padding:10px;
+    font-size:1.2em;
+    font-weight: bolder;
+    background-color: #79c879;
+    color: rgb(71, 71, 71);
+}
+
+footer {
+    background-color: rgb(52, 52, 52);
+    text-align: center;
+    padding: 40px 0;
+    color: #79c879;
+}
+
+@media screen and (max-width: 550px) {
+    header {
+        height: 500px
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav div{
+        width: 100vw;
+    }
+
+    label {
+        width:200px;
+        display:block;
+    }
+}
